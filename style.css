@@ -8,10 +8,13 @@ html{
     scroll-behavior: smooth;
 }
 
-header h3{
-    transform: translate(50%,-50%);
+section.heading h3{
+    padding-top: 150px;
+    text-shadow: 5px 8px 10px rgba(0, 0, 0, 0.5)
 }
-
+section.heading h1{
+    text-shadow: 5px 8px 10px rgba(0, 0, 0, 0.5)
+}
 header{
     position: fixed;
     width: 100%;
