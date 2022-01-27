@@ -57,7 +57,20 @@ li a:hover{
     background-color: whitesmoke;
 }
 section.our-mission{
-    margin: 50px;
+    
+    margin: 80px 20px;
+    
+}
+section.our-mission .description{
+    /* border: 2px solid #4caf50; */
+    padding:20px 15px;
+    box-shadow: 10px 10px 15px -3px rgba(0,0,0,0.1);
+    /* height :500px; */
+    
+}
+section.our-mission .description h2{
+    margin:20px 0px;
+   
 }
 section.heading h3{
     color: #4caf50;
@@ -74,7 +87,7 @@ section.heading h1{
 section.our-mission .description h2{
     color: #2a2a2a;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 290px;
+   
 }
 section.our-mission .description p{
     width: 90%;
@@ -84,23 +97,50 @@ section.our-mission .description p{
     margin-left: 20px;
 }
 section.our-mission {
-    display: flex;
+    /* display: flex; */
+    /* margin-top:30px; */
     
 }
 section.our-mission .description{
-    border: 5px solid #4caf50;
     border-radius: 12px;
 }
 /*Styling of Photo*/
+section.our-mission .description h2{
+    text-align: center;
+    font-size:30px;
+}
+section.our-mission .description p{
+    font-size: 18px;
+    line-height: 30px;
+}
 
 
 .message-board{
+    margin:80px auto;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
 }
+.message-board div{
+    margin:30px 50px;
+}
+/* @media screen and (max-width:1639px){
+    .message-board{
+
+        flex-wrap:wrap;
+    }
+    section.our-mission{
+        flex-wrap: wrap;
+    }
+    .message-board{
+        margin:auto;
+    }
+
+} */
 .principal,.vice-principal,.chair-person{
-    margin: 70px;
+    margin: 20px 50px;
     color: #002a8c;
     
 }
@@ -170,7 +210,17 @@ section.programs h2{
 }
 /*Images*/
 .gallery{
-    margin-top: 50px;
+
+ 
+  
+}
+.gallery .flex-galery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:30px auto;
+    
 }
 .gallery h1{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -178,38 +228,37 @@ section.programs h2{
     text-align: center;
     text-decoration: underline;
 }
-.image{
-    display: flex;
-    
-    margin:30px 0 30px 500px;
-    
+.gallery-1{
+    border:1px solid #000;
+    margin-right:0;
 
 }
-.image2{
-    display: flex;
-    margin-left: 500px;
-    
-}
+
+
 img.gallery1{
-    margin:24px;
+    /* margin:24px; */
+    margin:20px;
     box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.5);
     transition: all ease 0.3s;
     border-radius: 8px;
 }
 img.gallery2{
-    margin:24px;
+    margin:20px;
+    /* margin:24px; */
     box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.5);
     transition: all ease 0.3s;
     border-radius: 8px;
 }
 img.gallery3{
-    margin:24px;
+    margin:20px;
+    /* margin:24px; */
     box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.5);
     transition: all ease 0.3s;
     border-radius: 8px;
 }
 img.gallery4{
-    margin:24px;
+    margin:20px;
+    /* margin:24px; */
     box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.5);
     transition: all ease 0.3s;
     border-radius: 8px;
