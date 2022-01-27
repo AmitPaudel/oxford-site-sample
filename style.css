@@ -8,6 +8,9 @@ html{
     scroll-behavior: smooth;
 }
 
+header h3{
+    transform: translate(50%,-50%);
+}
 
 header{
     position: fixed;
